@@ -29,6 +29,15 @@ public class ContactsActivity extends AppCompatActivity {
                     }
                 }
         );
+        Button lifeCycle = findViewById(R.id.life);
+        lifeCycle.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(ContactsActivity.this,LifeActivity.class);
+                        startActivity(intent);
+                    }
+                });
     }
 
     public void selectContacts() {
