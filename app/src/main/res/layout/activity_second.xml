@@ -9,24 +9,24 @@
 
     <Button
         android:id="@+id/select_contacts"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/button_one"
         android:text="@string/select" />
 
     <Button
         android:id="@+id/life"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/button_two_top"
         android:text="@string/life"
         />
 
     <TextView
         android:id="@+id/contacts_number"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/textView_height"
+        android:layout_marginTop="@dimen/textView_top"
         android:textColor="@color/contacts_number"
         android:background="@color/contacts"/>
 </LinearLayout>
